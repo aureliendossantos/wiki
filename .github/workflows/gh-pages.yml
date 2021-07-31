@@ -15,18 +15,11 @@ jobs:
         with:
           submodules: recursive  # Fetch Hugo themes (true OR recursive)
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest'
-          extended: true
-
-      - name: Build
-        run: hugo --minify
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3 # Deploys to gh-pages branch
-        if: github.ref == 'refs/heads/main'
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+      - name: Hugo Deploy GitHub Pages
+        uses: benmatselby/hugo-deploy-gh-pages@master
+        env:
+          HUGO_VERSION: 0.84.4
+          HUGO_EXTENDED: true
+          TARGET_REPO: aureliendossantos/wiki
+          TARGET_BRANCH: gh-pages
+          TOKEN: ${{ secrets.HUGO_BUILD_TOKEN }}
