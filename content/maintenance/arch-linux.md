@@ -4,11 +4,15 @@
 
 C'est marrant d'apprendre à installer Arch Linux et à le personnaliser. Mais ce n'est pas ma seule passion dans la vie non plus. Après 2 ou 3 jours, j'avais envie de passer à autre chose et il me manquait encore des choses à configurer, donc au lieu de m'embêter, j'ai préféré choisir une distribution complète basée sur Arch.
 
+{{< columns >}}
+
 ### Manjaro i3
 
 Installation simple et rapide.
 
 Après installation (avec swap file) 8 Go de libre restants.
+
+<--->
 
 ### EndeavourOS i3
 
@@ -16,32 +20,24 @@ Utilise i3-gaps. Installation très lente et moche, qui ne met pas en confiance.
 
 31/07/2021 : Ne fonctionne pas sur mon Acer Chromebook. Il y a un login screen puis le bureau ne se démarre pas, sans aucun message d'erreur...
 
-## ohmyzsh
+{{< /columns >}}
 
-Changer le shell pour zsh `chsh -s $(which zsh)`
+## Setup Manjaro
 
-Déco reco
+1. Installer Oh My Zsh :
 
-`echo $SHELL`
+    1. Changer le shell pour Zsh : `chsh -s $(which zsh)`
+    2. Déco reco
+    3. Vérifier : `echo $SHELL`
+    4. Installer [Oh My Zsh](https://ohmyz.sh)
 
-Installer https://ohmyz.sh/
+2. Installer yay : `sudo pacman -S yay`
 
-## yay
+3. Copier mes fichiers de config i3 et i3status
 
-`sudo pacman -S yay`
+4. `yay -S xorg-xbacklight` pour régler la luminosité
 
-## i3
-
-```
-yay -S xorg-xbacklight
-```
-
-le thème utilié par défaut est "conky maia"
-
-## Réinstaller les mêmes paquets
-
-1. `pacman -Qqe > pkglist.txt`
-2. `pacman -S --needed - < pkglist.txt`
+5. Personnaliser Conky : le thème utilisé par défaut est "conky maia". `locate conky_maia` et modifier avec `sudo nano`.
 
 # Mises à jour
 

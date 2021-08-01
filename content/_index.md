@@ -1,41 +1,15 @@
 ---
-title: Introduction
+title: Bienvenue
 type: docs
+BookToC: false
 ---
 
-# Acerbo datus maxime
+# Bienvenue
 
-{{< columns >}}
-## Astris ipse furtiva
+Ce wiki est avant tout destiné à mon usage personnel : j'y documente mon workflow et les outils que j'utilise afin de m'en souvenir plus tard. Cela dit, si vous y trouvez quelque chose d'utile, c'est tant mieux ! Et si vous vous y connaissez mieux que moi dans un de ces domaines, n'hésitez pas à m'envoyer vos suggestions.
 
-Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut
-olivae sensit **arma sorori** deducit, inesset **crudus**, ego vetuere aliis,
-modo arsit? Utinam rapta fiducia valuere litora _adicit cursu_, ad facies
+## A propos
 
-<--->
+Ce site est construit avec le générateur de site statique [Hugo](https://gohugo.io/) et le thème [Hugo Book](https://github.com/alex-shpak/hugo-book) d'Alex Shpak.
 
-## Suis quot vota
-
-Ea _furtique_ risere fratres edidit terrae magis. Colla tam mihi tenebat:
-miseram excita suadent es pecudes iam. Concilio _quam_ velatus posset ait quod
-nunc! Fragosis suae dextra geruntur functus vulgata.
-{{< /columns >}}
-
-
-## Tempora nisi nunc
-
-Lorem **markdownum** emicat gestu. Cannis sol pressit ducta. **Est** Idaei,
-tremens ausim se tutaeque, illi ulnis hausit, sed, lumina cutem. Quae avis
-sequens!
-
-    var panel = ram_design;
-    if (backup + system) {
-        file.readPoint = network_native;
-        sidebar_engine_device(cell_tftp_raster,
-                dual_login_paper.adf_vci.application_reader_design(
-                graphicsNvramCdma, lpi_footer_snmp, integer_model));
-    }
-
-## Locis suis novi cum suoque decidit eadem
-
-Idmoniae ripis, at aves, ali missa adest, ut _et autem_, et ab?
+Le code source est situé dans la branche `master` et un workflow GitHub Actions construit le site dans la branche `gh-pages`.
