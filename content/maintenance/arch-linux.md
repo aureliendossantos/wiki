@@ -1,3 +1,15 @@
+Mon ordinateur :
+
+**Acer Chromebook CB3-131-C2V4**<br>
+Intel Baytrail et nom de code Google GNAWTY<br>
+Ecran 11 pouces - 1366 x 768<br>
+Stockage et mémoire : Mémoire 16 Go, 2 Go de RAM<br>
+Processeur : Intel Celeron N2840 2.16 Ghz<br>
+Carte Graphique : Intel HD Graphics 313MHz<br>
+1 port HDMI, 1 port USB 2.0, 1 port USB 3.0, 1 prise jack<br>
+
+Acheté le 7 janvier 2017 sur [Amazon](https://www.amazon.fr/dp/B01ARO3KL4/ref=pe_386181_40444391_TE_item).
+
 # Installation
 
 ## Choix de la distribution
@@ -37,33 +49,36 @@ Utilise i3-gaps. Installation très lente et moche, qui ne met pas en confiance.
 
 4. `yay -S xorg-xbacklight` pour régler la luminosité
 
-5. Personnaliser Conky : le thème utilisé par défaut est "conky maia". `locate conky_maia` et modifier avec `sudo nano`.
+5. Installer Chrome et VS Code (bin)
+
+6. `code .config/mimeapps.list` Remplacer les `Pale Moon.desktop` en `google-chrome.desktop`
+
+7. Personnaliser Conky : le thème utilisé par défaut est "conky maia". `locate conky_maia` et modifier avec `sudo nano`.
+
+La solution pour régler l'audio sur le wiki Arch du CB3-131 n'a pas marché.
 
 # Mises à jour
 
-`<pacman/yay> -Syu`
+```
+<pacman/yay> -Syu
+```
 
 ## Erreur de keyring sur Pacman
 
-Sometimes if a user doesn't update their system for a long time, this keyring might expire. The keyring can also get corrupted for some reason.
+Sometimes if a user doesn't update their system for a long time, this keyring might expire. The keyring can also get corrupted for some reason. To solve basic keyring issues do the following:
 
-To solve basic keyring issues do the following:
+```sh
+# Resynchronise with the Manjaro repository servers
+# to ensure that everything is up to date
+sudo pacman -Syy
+# Refresh and update the signature keys
+sudo pacman-key --refresh-keys
+# Reload the signature keys
+sudo pacman-key --populate archlinux manjaro
+```
+The three commands above should solve most (basic) keyring issues.[^keyring]
 
-Resynchronise with the Manjaro repository servers to ensure that everything is up to date - by entering the command:
-
-> sudo pacman -Syy
-
-Refresh and update the signature keys by entering the command:
-
-> sudo pacman-key --refresh-keys
-
-Reload the signature keys by entering the command:
-
-> sudo pacman-key --populate archlinux manjaro
-
-The three commands above should solve most (basic) keyring issues.
-
-[How to solve keyring issues in Manjaro](https://archived.forum.manjaro.org/t/how-to-solve-keyring-issues-in-manjaro/4020)
+[^keyring]: [How to solve keyring issues in Manjaro](https://archived.forum.manjaro.org/t/how-to-solve-keyring-issues-in-manjaro/4020)
 
 ### Problème lié
 
@@ -74,3 +89,10 @@ après avoir fait `pacman-mirrors -c all` j'ai dû effectuer de nouvelles mises 
 # Nettoyer espace disque
 
 Vider la corbeille
+
+Vérifier un dossier : `ncdu`
+
+```sh
+yay -Scc
+npm cache clean --force  
+```
