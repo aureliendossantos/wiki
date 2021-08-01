@@ -9,7 +9,7 @@ Ces termes peuvent traduire le mot français "sous", "dessous", "en-dessous"... 
 
 ## Sur le plan grammatical
 
-"Under" est uniquement une préposition, là où beneath, below et underneath peuvent être soit prépositions, soit adverbes. Cela signifie que "under" doit toujours être suivi d'un nom.\
+"Under" est uniquement une préposition, là où beneath, below et underneath peuvent être soit prépositions, soit adverbes. Cela signifie que "under" doit toujours être suivi d'un nom.
 "underneath" peut aussi être un nom.
 
 ## Sur le plan sémantique

@@ -2,15 +2,9 @@
 title: "GalliumOS"
 ---
 
-Mon ordinateur :
+# GalliumOS
 
-**Acer Chromebook CB3-131-C2V4**<br>
-Intel Baytrail et nom de code Google GNAWTY<br>
-Ecran 11 pouces - 1366 x 768<br>
-Stockage et mémoire : Mémoire 16 Go, 2 Go de RAM<br>
-Processeur : Intel Celeron N2840 2.16 Ghz<br>
-Carte Graphique : Intel HD Graphics 313MHz<br>
-1 port HDMI, 1 port USB 2.0, 1 port USB 3.0, 1 prise jack<br>
+{{< summary "ordinateurs/acer-chromebook-cb3.md" >}}
 
 # Installation
 

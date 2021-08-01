@@ -1,0 +1,2 @@
+{{ $file := printf "%s/%s" (trim $.Page.File.Dir "\\") (.Get 0) }}
+{{ with .Site.GetPage $file }}{{.Content}}{{end}}
