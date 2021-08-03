@@ -8,3 +8,5 @@ Carte Graphique : Nvidia GeForce GTX 970<br>
 ## Observations
 
 La prise jack de devant m'a semblé de moins bonne qualité, vérifier. J'ai une fois arraché le branchement en donnant un coup sur le devant de la tour.
+
+Le SSD2 est pas fixé : le retirer avant de déplacer l'ordinateur.

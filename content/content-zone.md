@@ -1,0 +1,1 @@
+La chaîne [alex krycek](https://www.youtube.com/channel/UC_daSiST9Jj1Y--J0iJI_kA/videos) a réuploadé toutes (?) les vidéos en mai 2021. J'ai tout récupéré (sauf "I LOVE MOTHERFUCKERS", j'attends une mise à jour de youtube-dl qui pourrait régler le wall de limitation d'âge) et rendu disponible sur Soulseek.

@@ -3,8 +3,6 @@ title: "Beneath, below, under, underneath"
 weight: 10
 ---
 
-# Beneath, below, under, underneath
-
 Ces termes peuvent traduire le mot français "sous", "dessous", "en-dessous"... mais ne sont pas interchangeables.
 
 ## Sur le plan grammatical

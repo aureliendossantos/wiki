@@ -1,8 +1,7 @@
 ---
-title: "Acer Chromebook CB3-131"
+title: "Acer Chromebook CB3-131-C2V4"
 ---
 
-**Acer Chromebook CB3-131-C2V4**<br>
 Intel Baytrail et nom de code Google GNAWTY<br>
 Ecran 11 pouces - 1366 x 768<br>
 Stockage et mémoire : Mémoire 16 Go, 2 Go de RAM<br>

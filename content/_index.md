@@ -13,3 +13,14 @@ Ce wiki est avant tout destiné à mon usage personnel : j'y documente mon work
 Ce site est construit avec le générateur de site statique [Hugo](https://gohugo.io/) et le thème [Hugo Book](https://github.com/alex-shpak/hugo-book) d'Alex Shpak.
 
 Le code source est situé dans la branche `master` et un workflow GitHub Actions construit le site dans la branche `gh-pages`.
+
+L'archetype est correctement détecté uniquement dans le dossier musique, donc :
+
+```sh
+hugo new content/musique/album.md
+hugo new --kind musique content/musique/city-pop/album.md
+```
+
+## Todo
+
+- [] Songer à juste afficher le titre de la page en haut parce qu'en vrai c'est chiant là

@@ -3,8 +3,6 @@ title: "Les procédés de traduction"
 weight: 1
 ---
 
-# Les procédés de traduction
-
 Il est rare de pouvoir traduire mot à mot, aussi recourons-nous souvent intuitivement à des procédés pour transposer les mots d'une langue à l'autre sans modifier le sens global de l'énoncé. Prendre conscience de ces mécanismes peut s'avérer utile, afin de pouvoir les mobiliser même lorsque l'on est en difficulté.
 
 - **La transposition :** Procédé qui consiste à remplacer une catégorie grammaticale par une autre, bien entendu sans changer le sens:

@@ -3,8 +3,6 @@ title: "Les traductions de « on »"
 weight: 2
 ---
 
-# Les traductions de « on »
-
 Le pronom indéfini « on » est utilisé en français avec différents sens qui donnent en conséquence des formes différentes en anglais.
 
 - Le pronom « on » désigne un indéfini : n'importe qui, tout le monde. Il se traduit alors par « one » dans une langue soutenue, et plus fréquemment par « you » dans une langue plus relâchée :

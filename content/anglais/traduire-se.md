@@ -3,8 +3,6 @@ title: "Les traductions de « se »"
 weight: 3
 ---
 
-# Les traductions de « se »
-
 - « Se » est un pronom réciproque -- dans le sens de « l'un l'autre »**
 
     → On utilise le pronom "one another" (plus de 2 personnes) et "each other" (2 personnes seulement)

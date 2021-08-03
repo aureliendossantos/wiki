@@ -1,0 +1,16 @@
+{{ .Page.Params.artist }}<br>
+{{ .Page.Params.year }}<br>
+Spotify : {{ .Page.Params.spotify }}<br>
+{{- if .Page.Params.link -}}
+Téléchargement : {{ .Page.Params.link | markdownify }}<br>
+{{ end -}}
+
+{{- if .Page.Params.youtube -}}
+{{- $pc := .Page.Site.Config.Privacy.YouTube -}}
+{{- if not $pc.Disable -}}
+{{- $ytHost := cond $pc.PrivacyEnhanced  "www.youtube-nocookie.com" "www.youtube.com" -}}
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://{{ $ytHost }}/embed/{{ .Page.Params.youtube }}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen></iframe>
+</div>
+{{ end -}}
+{{ end -}}
