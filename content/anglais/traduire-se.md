@@ -42,10 +42,8 @@ weight: 3
         *You're a big boy now, you can wash yourself*  → tu es grand, tu peux te laver tout seul
 
 {{< hint info >}}
-**A noter**<br>
+**A noter**
 En français, c'est la différence entre "se" pronom réfléchi direct ou indirect qui régit l'accord du participe passé :
-
-*Ils se sont lavés* (ils ont lavé quoi ? eux-mêmes, COD avant le verbe, accord du participe avec "se")
-
-*Ils se sont lavé les mains* (ils ont lavé quoi ? leurs mains, COD après le verbe, participe invariable)
+- *Ils se sont lavés* (ils ont lavé quoi ? eux-mêmes, COD avant le verbe, accord du participe avec "se")
+- *Ils se sont lavé les mains* (ils ont lavé quoi ? leurs mains, COD après le verbe, participe invariable)
 {{< /hint >}}

@@ -1,9 +1,11 @@
-{{ .Page.Params.artist }}<br>
+<p>{{ .Page.Params.artist }}<br>
 {{ .Page.Params.year }}<br>
+{{- if .Page.Params.spotify -}}
 Spotify : {{ .Page.Params.spotify }}<br>
-{{- if .Page.Params.link -}}
-Téléchargement : {{ .Page.Params.link | markdownify }}<br>
 {{ end -}}
+{{- if .Page.Params.link -}}
+Téléchargement : {{ .Page.Params.link | markdownify }}
+{{ end -}}</p>
 
 {{- if .Page.Params.youtube -}}
 {{- $pc := .Page.Site.Config.Privacy.YouTube -}}

@@ -1,4 +1,22 @@
-/* You can add custom styles here. */
+::-webkit-scrollbar {
+    display: none;
+}
 
-// @import "plugins/numbered";
-// @import "plugins/scrollbars";
+p {
+    margin-top: 6px;
+}
+
+.markdown h1, .markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6 {
+    margin-top: 1.5em;
+    margin-bottom: 6px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+// titres de {{< section >}}
+.markdown dt h2 {
+    margin-bottom: 0.2rem;
+}

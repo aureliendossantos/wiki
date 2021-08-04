@@ -25,6 +25,7 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+      hardWraps: true
   tableOfContents:
     startLevel: 1
 

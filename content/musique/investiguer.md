@@ -10,12 +10,12 @@ La chaine [should be asleep](https://www.youtube.com/channel/UC-RVESJTf_zSaFB8qG
 
 our go-to music for the highway is industrial / new beat / weirdo electronic jams w/ femme fatale type talking vocals:
 
-Logic System “Unit”<br>
-Carlos Perón “Frigorex”<br>
-Saâda Bonaire “The Facts”<br>
-Miss Kittin “Frank Sinatra”<br>
-Algebra Suicide “Little Dead Body Poem”<br>
-ADULT. “Pressure Suit”<br>
-the first five Ministry albums<br>
+Logic System “Unit”
+Carlos Perón “Frigorex”
+Saâda Bonaire “The Facts”
+Miss Kittin “Frank Sinatra”
+Algebra Suicide “Little Dead Body Poem”
+ADULT. “Pressure Suit”
+the first five Ministry albums
 
 anne clark 'our darkness'

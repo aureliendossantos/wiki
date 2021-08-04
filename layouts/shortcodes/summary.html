@@ -1,4 +1,4 @@
 {{ $file := printf "%s/%s" (trim $.Page.File.Dir "\\") (.Get 0) }}
 {{ with .Site.GetPage $file }}
-<a href="{{ .RelPermalink }}"><strong>{{ partial "docs/title" . }}</strong></a>
-{{.Summary}}{{end}}
+<p><a href="{{ .RelPermalink }}"><strong>{{ partial "docs/title" . }}</strong></a><br>
+{{ .Summary | markdownify }}{{end}}</p>

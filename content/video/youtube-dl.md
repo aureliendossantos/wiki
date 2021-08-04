@@ -3,8 +3,6 @@ title: "youtube-dl"
 weight: 3
 ---
 
-# youtube-dl
-
 ## `%appdata%/youtube-dl/config.txt`
 
 ```
@@ -14,7 +12,7 @@ weight: 3
 
 [Mon tutoriel](https://aureliendossantos.github.io/post/2020/telecharger-des-videos-youtube/)
 
-# Outil perso
+## Outil perso
 
 Un petit fichier Batch qui propose une commande plus succinte :
 
@@ -24,7 +22,7 @@ Un petit fichier Batch qui propose une commande plus succinte :
 
 Le code est un peu clunky car Batch pense que le `=` du lien YouTube sépare deux arguments. Je ne sais pas comment youtube-dl règle ce problème. Donc je ne me suis pas embêté : la commande attend deux arguments qui sont ensuite réunis avec un `=`, ce qui fait que l'outil n'accepte que les liens de vidéo YouTube.
 
-## `yt.cmd`
+### `yt.cmd`
 
 ```batch
 @echo off

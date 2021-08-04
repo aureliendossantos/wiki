@@ -1,7 +1,7 @@
-Ecran xx pouces - 3440 x 1440, 60Hz<br>
-Mémoire : 8 Go de RAM<br>
-Processeur : Intel Core i5-4590 3.30 Ghz<br>
-Carte Graphique : Nvidia GeForce GTX 970<br>
+Ecran xx pouces - 3440 x 1440, 60Hz
+Mémoire : 8 Go de RAM
+Processeur : Intel Core i5-4590 3.30 Ghz
+Carte Graphique : Nvidia GeForce GTX 970
 
 <!--more-->
 

@@ -1,4 +1,5 @@
-# Arch Linux
+---
+---
 
 {{< summary "ordinateurs/acer-chromebook-cb3.md" >}}
 
