@@ -4,6 +4,7 @@
     <a href="{{ .RelPermalink }}"><h2 class="blbl">{{ partial "docs/title" . }}</h2></a>
   </dt>
   <dd class="markdown-inner">
+    {{ partial "docs/post-meta" . }}
     {{ default .Summary .Description }}
   </dd>
 {{ end }}

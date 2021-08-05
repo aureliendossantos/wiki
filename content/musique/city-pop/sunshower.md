@@ -1,15 +1,19 @@
 ---
 title: SUNSHOWER
-artist: Taeko Onuki
-year: 1977 (2010 CD reissue, 3 bonus tracks)
+artistes:
+- Taeko Onuki
+- Tatsuro Yamashita
+year: 1977
 spotify: oui
 link: "[rutracker.net](https://rutracker.net/forum/viewtopic.php?t=5785317)"
 youtube: 98fqXx-KFgI
 ---
 
-{{< album >}}
-
 <!--more-->
+
+1977 (2010 CD reissue, 3 bonus tracks)
+
+Tatsuro Yamashita : background vocal (tracks 1–2, 4)
 
 ## Tracklist (2010 CD)
 

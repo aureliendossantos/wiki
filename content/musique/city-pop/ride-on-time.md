@@ -1,15 +1,15 @@
 ---
 title: "RIDE ON TIME"
-artist: Tatsuro Yamashita (山下達郎)
-year: "1980 (Remaster Edition: 2002)"
+artistes: Tatsuro Yamashita
+year: 1980
 spotify: non
 link: "[nyaa.si](https://nyaa.si/view/1065675)"
 youtube: xHaPsp2U6oM
 ---
 
-{{< album >}}
-
 <!--more-->
+
+1980 (Remaster Edition: 2002)
 
 Label: Air Records ‎– BVCR-17017
 Genre: Funk / Soul, Pop

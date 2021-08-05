@@ -1,15 +1,15 @@
 ---
 title: "Oasis Of The Wind II ～ A Story Of Forest And Water ～"
-artist: Takashi Kokubo (小久保隆)
-year: 1993 CD release from Teichiku Records Co.
+artistes: Takashi Kokubo
+year: 1993
 spotify: non
 link:
 youtube: rWEI9y6PElo
 ---
 
-{{< album >}}
-
 <!--more-->
+
+1993 CD release from Teichiku Records Co
 
 Takashi Kokubo (小久保隆) released ten albums over the course of 1992-93 in what is called the "Ion Series". These ten albums were released in two five-album sub-series, one in 1992 and one in 1993. This album is the first part of the latter sub-series released in 1993, making it the sixth album in the Ion Series.
 

@@ -1,12 +1,10 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-artist:
+artistes:
 year:
 spotify:
 link:
 youtube:
 ---
-
-{{< album >}}
 
 <!--more-->

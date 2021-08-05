@@ -1,15 +1,15 @@
 ---
 title: Love Trip
-artist: Takako Mamiya
-year: 2012 CD reissue remastered; 1982
+artistes: Takako Mamiya
+year: 2012
 spotify: non
 link: "[nyaa.si](https://nyaa.si/view/1251090)"
 youtube: ovcnIPL-CWs
 ---
 
-{{< album >}}
-
 <!--more-->
+
+2012 CD reissue remastered; 1982
 
 ## Tracklist
 

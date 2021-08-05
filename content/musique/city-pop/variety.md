@@ -1,11 +1,9 @@
 ---
 title: VARIETY
-artist: Mariya Takeuchi (竹内まりや)
+artistes: Mariya Takeuchi (竹内まりや)
 year: 1984
 link: "[nyaa.si](https://nyaa.si/view/1067988)"
 ---
-
-{{< album >}}
 
 Contient notamment Plastic Love.
 

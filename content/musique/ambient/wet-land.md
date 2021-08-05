@@ -1,15 +1,15 @@
 ---
 title: "Wet Land"
-artist: Hiroshi Yoshimura (吉村弘)
-year: 1993 CD release from Eastworld
+artistes: Hiroshi Yoshimura
+year: 1993
 spotify: non
 link:
 youtube: Z3m7HXeiHpg
 ---
 
-{{< album >}}
-
 <!--more-->
+
+1993 CD release from Eastworld
 
 ## youtube comments
 

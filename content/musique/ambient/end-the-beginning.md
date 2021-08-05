@@ -1,13 +1,11 @@
 ---
 title: "End the Beginning"
-artist: Magicien Blanc
+artistes: Magicien Blanc
 year: 2019
 spotify:
 link: https://magicienblanc.bandcamp.com/releases
 youtube: Ta2vdlXv4QE
 ---
-
-{{< album >}}
 
 <!--more-->
 
