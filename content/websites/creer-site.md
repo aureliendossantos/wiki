@@ -20,7 +20,13 @@ cp -R themes/book/exampleSite/content .
 ```
 Puis changer le nom du thème dans le fichier config.
 {{< /tab >}}
-{{< tab "Windows ?" >}}
-Il faut que je trouve l'équivalent du `;` et de `cp`
+{{< tab "Windows" >}}
+```
+hugo new site rando
+cd rando
+git init
+git submodule add https://github.com/monkeyWzr/hugo-theme-cactus themes/cactus
+Xcopy themes\cactus\exampleSite . /E
+```
 {{< /tab >}}
 {{< /tabs >}}
