@@ -16,11 +16,11 @@ Le mode difficile d'un raid augmente le niveau de lumière requis, désactive la
 
 Minimum recommandé par la communauté :
 
-- Le Caveau de verre (Vault of Glass) : 4-5
-- La Chute de Cropta (Crota's End) : 4 (c'est le minimum pour ne pas cheese le pont)
-- La Chute du roi (King's Fall) : 5-6
-    - Pour les mécaniques : Rupture: 3, Totems: 4, Warpriest: 3, Golgo: 2, Daughters: 4, Oryx: 1 Sunsinger or 4 non-Sunsingers
-- Fureur mécanique (Wrath of the Machine) : 4-5
+- [Le Caveau de verre](#le-caveau-de-verre-vault-of-glass) (Vault of Glass) : 4-5
+- [La Chute de Cropta](#la-chute-de-cropta-crotas-end) (Crota's End) : 4 (c'est le minimum pour ne pas cheese le pont)
+- [La Chute du roi](#la-chute-du-roi-kings-fall) (King's Fall) : 5-6
+    - Au moins 5 pour effectuer les mécaniques normalement : Rupture: 3, Totems: 4, Warpriest: 3, Golgo: 2, Daughters: 4, Oryx: 1 Sunsinger or 4 non-Sunsingers
+- [Fureur mécanique](#fureur-mécanique-wrath-of-the-machine) (Wrath of the Machine) : 4-5
 
 ## Le Caveau de verre (Vault of Glass)
 
@@ -58,6 +58,8 @@ Position des oracles :
 
 ### Le Labyrinthe aux Gorgones
 
+En mode difficile, des Gorgones fixes sont ajoutées (Hardmode Gorgon dans la légende).
+
 ![Carte](labyrinthe-gorgones.webp)
 
 {{< hint info >}}
@@ -66,7 +68,17 @@ L'invisibilité du Chasseur fonctionne.
 
 ### Atheon
 
-Atheon téléporte 3 joueurs ; il doit y avoir au moins un joueur supplémentaire pour ouvrir les portails. Pour faire le boss à 3 ou moins, il faut un Arcaniste qui tombe dans le vide avant qu'Athéon téléporte puis se self-res.
+Atheon téléporte 3 joueurs ; il doit donc y avoir au moins un joueur supplémentaire pour ouvrir les portails. Pour faire le boss à 3 ou moins, il faut un Arcaniste qui tombe dans le vide avant qu'Athéon téléporte puis se self-res.
+
+Un groupe de trois joueurs est téléporté dans Mars ou Vénus et doit détruire six Oracles qui apparaissent toujours dans le même ordre. Un des joueurs doit prendre la relique et s'occuper de combattre les ennemis normaux tout en purifiant ses alliés qui se chargent en priorité des Oracles. Si l'écran de quelqu'un devient noir, il faut le purifier rapidement. Si le porteur de relique meurt, quelqu'un d'autre doit la récupérer dans les 5 secondes pour éviter le wipe.
+
+![Carte des portails](oracles-atheon.webp)
+
+Les joueurs toujours dans l'arène doivent ouvrir le portail de Mars ou Vénus avec la plaque de synchronisation. Ils doivent se défendre contre les Supplicants qui explosent au contact. Pour cela, il est efficace de se poster sur un pilier pour éviter le contact, et d'utiliser des grenades (surtout lorsque le buff est actif) puisque les Supplicants se déplacent par groupes de 3.
+
+Lorsque tous les Oracles sont vaincus, toute l'escouade gagne un buff pendant 30 secondes augmentant considérablement les dégâts sur Atheon et rechargeant rapidement les grenades et les Supers. Ainsi, le bouclier de la relique peut être utilisé en permanence durant cette phase.
+
+Au bout de 7 minutes de combat, un avertissement s'affiche, et au bout de 8 minutes, Atheon devient enragé : il attaque plus fréquemment et davantage d'ennemis apparaissent.
 
 ## La Chute de Cropta (Crota's End)
 
