@@ -8,6 +8,8 @@ Tout le monde conserve un checkpoint et peut reprendre la partie au même endroi
 
 Le checkpoint est effacé lors du reset, tous les mardis à 19h. Pour conserver le checkpoint, il faut être dans le raid à ce moment-là. Seule exception : cela ne fonctionnera pas si la difficulté du raid ne peut plus être sélectionnée lors de la nouvelle semaine.
 
+Les checkpoints sont spécifiques au personnage. On peut donc donner le checkpoint à ses autres personnages en les connectant au raid et en subissant un wipe.
+
 ## Difficulté
 
 Le mode difficile d'un raid augmente le niveau de lumière requis, désactive la réanimation (sauf la Radiance), ajoute le modificateur Héroïque (*vos ennemis apparaissent en plus grand nombre et sont plus agressifs*) ainsi que des mécaniques au raid. Le mode à 390 de Lumière reprend les changements du mode difficile et ajoute des défis à certaines phases. Le raid de la semaine est joué en mode 390 avec tous les défis activés.
@@ -113,7 +115,7 @@ Au bout de 7 minutes de combat, un avertissement s'affiche, et au bout de 8 minu
 ### Quêtes liées
 
 - La Chute du roi approche -- Etape 2 : vaincre le Prêtre de guerre, Golgoroth, et Oryx
-- L'appétit ancestral -- Etape 1 : obtenir la Lame de la famine, le Voile d'Ir Anûk, et le Cœur affamé
+- L'appétit ancestral -- Etape 1 : obtenir la Lame de la famine (Prêtre de guerre), le Voile d'Ir Anûk (Prêtresses), et le Cœur affamé (Oryx)
 
 ### Stratégies pour solo/cheese
 
