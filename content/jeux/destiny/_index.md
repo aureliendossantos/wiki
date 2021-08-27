@@ -179,3 +179,9 @@ Rune désuète | 3 runes volées | Invocations de runes volées, Nuit noire de l
 - **Wormfeeder Rune :** se transforme en l'une des 9 clés après avoir été chargée en tuant 50 ennemis sans mourir.
 
 - **Rune des agonarques :** se charge en tuant 7 Corrompus cachés qui apparaissent lorsque l'on se tient sous une boule blanche dans le Cuirassé. La position de la boule change en fonction du jour de la semaine, et il faut donc au moins 7 jours pour tuer assez de Corrompus. La rune s'obtient d'ailleurs par ces Corrompus cachés. La rune chargée permet de lancer un événement public sans limite de temps dans The Founts.
+
+# PNJs
+
+## Xûr
+
+Présent à un endroit aléatoire de la Tour ou du Récif du vendredi 11h au dimanche 11h.
