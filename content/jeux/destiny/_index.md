@@ -1,3 +1,7 @@
+# Outils
+
+Activité sur Destiny 1 et 2 : https://chrisfried.github.io/secret-scrubland/
+
 # Raids
 
 > Luke Smith described every raid as having a unique "heartbeat" that distinguishes it from other raids. Vault of Glass is about spreading players out and then bringing them back together. Crota's End is about creating "hero moments," where a single player is relied upon to carry out an important task. King's Fall is about movement and positioning. Wrath of the Machine is about action and "glorious combat."
@@ -26,7 +30,7 @@ Minimum recommandé par la communauté :
 
 ## Le Caveau de verre (Vault of Glass)
 
-- [ ] Normal (Niveau 26)
+- [x] Normal (Niveau 26)
 - [ ] Difficile (Niveau 30)
     - Deux oracles apparaissent à la fois (on peut être marqué pour la négation deux fois)
     - Gorgones supplémentaires fixes, limitant les passages empruntables
@@ -147,3 +151,31 @@ Au bout de 7 minutes de combat, un avertissement s'affiche, et au bout de 8 minu
 - Siege Engine: [2](https://www.youtube.com/watch?v=EZZafkmS_j8) / [1](https://www.youtube.com/watch?v=jh3UoSrC4tE) (*It is impossible to solo Siege Engine on Normal mode according to all currently know strategies. However, it is possible on Hard due to the extended timer. As of now this has only been done with a macro, however.*)
 - Aksis1: [1](https://www.youtube.com/watch?v=7dgCcIiRGoI)
 - Aksis2: [1](https://www.youtube.com/watch?v=QcEocDfkDOQ) / [2](https://www.youtube.com/watch?v=Orhs8X2v-RY)
+
+# Equipement
+
+Equipements de niveau 400 :
+
+- colis de réputation de faction, de l'Avant-garde et de l'Epreuve
+- matchs de l'Epreuve (loot légendaire)
+- contrats d'Elite de la semaine
+
+# Patrouilles
+
+## Cuirassé
+
+### Runes
+
+Runes d'invocation | Chargée par | Source
+--- | --- | ---
+Rune réciproque | Déjà chargée | Quêtes, coffres du Cuirassé, Eris Morn au rang 5
+Rune volée | 3 runes réciproques | Invocations de runes réciproques, coffres du Cuirassé, Eris Morn au rang 5
+Rune désuète | 3 runes volées | Invocations de runes volées, Nuit noire de la semaine, colis de réputation d'Eris Morn, raid de la Chute du roi, quête de L'appétit ancestral
+
+**Autres runes :**
+
+- **Rune des charmeurs de vers :** drop des Chevaliers et des Sorcières dans le Cuirassé. Utilisé à la bonne position dans la zone de départ du Cuirassé pour faire apparaître un Ogre qui drop la Wormfeeder Rune
+
+- **Wormfeeder Rune :** se transforme en l'une des 9 clés après avoir été chargée en tuant 50 ennemis sans mourir.
+
+- **Rune des agonarques :** se charge en tuant 7 Corrompus cachés qui apparaissent lorsque l'on se tient sous une boule blanche dans le Cuirassé. La position de la boule change en fonction du jour de la semaine, et il faut donc au moins 7 jours pour tuer assez de Corrompus. La rune s'obtient d'ailleurs par ces Corrompus cachés. La rune chargée permet de lancer un événement public sans limite de temps dans The Founts.

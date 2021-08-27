@@ -12,6 +12,13 @@ Ce site est construit avec le générateur de site statique [Hugo](https://gohug
 
 Le code source est situé dans la branche `master` et un workflow GitHub Actions construit le site dans la branche `gh-pages`.
 
+## Todo (peut-être)
+
+- [ ] Alimenter en images. APIs:
+    - Jeux : IGDB
+    - CD : Discogs
+    - Films : iMDB
+
 ## Documentation
 
 ### Front matter
