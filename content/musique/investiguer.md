@@ -4,6 +4,8 @@ La chaine [should be asleep](https://www.youtube.com/channel/UC-RVESJTf_zSaFB8qG
 
 > Eno is perhaps the most important ambient artist ever, but imo, not the best. Check out Hakobune, Chihei Hatakeyama, and Endurance. All making some amazing ambient music these days.
 
+> Neil Ardley - Kaleidoscope Of Rainbows (1976): ~1 year from my first listen, and this album is a life changer. Also the album Harmony of the Spheres (Ardley), and everything by Nucleus and Soft Machine.
+
 {{< youtube EcrmqMklEKo >}}
 
 ## Recommandations

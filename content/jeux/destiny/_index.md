@@ -2,6 +2,8 @@
 
 Activité sur Destiny 1 et 2 : https://chrisfried.github.io/secret-scrubland/
 
+Grimoire : https://destiny-grimoire.netlify.app (projet personnel)
+
 # Raids
 
 > Luke Smith described every raid as having a unique "heartbeat" that distinguishes it from other raids. Vault of Glass is about spreading players out and then bringing them back together. Crota's End is about creating "hero moments," where a single player is relied upon to carry out an important task. King's Fall is about movement and positioning. Wrath of the Machine is about action and "glorious combat."
