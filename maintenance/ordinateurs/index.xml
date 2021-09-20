@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mes ordinateurs on Book</title>
+    <link>https://aureliendossantos.github.io/wiki/maintenance/ordinateurs/</link>
+    <description>Recent content in Mes ordinateurs on Book</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://aureliendossantos.github.io/wiki/maintenance/ordinateurs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://aureliendossantos.github.io/wiki/maintenance/ordinateurs/tour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aureliendossantos.github.io/wiki/maintenance/ordinateurs/tour/</guid>
+      <description>&lt;p&gt;Ecran xx pouces - 3440 x 1440, 60Hz&lt;br&gt;
+Mémoire : 8 Go de RAM&lt;br&gt;
+Processeur : Intel Core i5-4590 3.30 Ghz&lt;br&gt;
+Carte Graphique : Nvidia GeForce GTX 970&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Acer Chromebook CB3-131-C2V4</title>
+      <link>https://aureliendossantos.github.io/wiki/maintenance/ordinateurs/acer-chromebook-cb3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aureliendossantos.github.io/wiki/maintenance/ordinateurs/acer-chromebook-cb3/</guid>
+      <description>&lt;p&gt;Intel Baytrail et nom de code Google GNAWTY&lt;br&gt;
+Ecran 11 pouces - 1366 x 768&lt;br&gt;
+Stockage et mémoire : Mémoire 16 Go, 2 Go de RAM&lt;br&gt;
+Processeur : Intel Celeron N2840 2.16 Ghz&lt;br&gt;
+Carte Graphique : Intel HD Graphics 313MHz&lt;br&gt;
+1 port HDMI, 1 port USB 2.0, 1 port USB 3.0, 1 prise jack&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Asus P2420LA-WO0538E</title>
+      <link>https://aureliendossantos.github.io/wiki/maintenance/ordinateurs/asus-p2420la-wo0538e/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aureliendossantos.github.io/wiki/maintenance/ordinateurs/asus-p2420la-wo0538e/</guid>
+      <description>&lt;p&gt;Ecran : 1366 x 768&lt;br&gt;
+Stockage et mémoire : HDD 500 Go, 4 Go de RAM&lt;br&gt;
+Processeur : Intel i3-5005 2.00GHz, 1995MHz, 2 coeurs, 4 processeurs logiques&lt;br&gt;
+Carte Graphique : Intel HD Graphics 5500 (1 Go RAM)&lt;br&gt;
+1 port HDMI, 1 port VGA, 4 ports USB 2.0, 1 port LAN, 1 prise jack&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,67 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+  repo: aureliendossantos/wiki
+
+# By default, saving a post in the CMS interface pushes a commit directly to the publication branch specified in backend. However, you also have the option to enable the Editorial Workflow, which adds an interface for drafting, reviewing, and approving posts. To do this, add the following line:
+publish_mode: editorial_workflow
+
+media_folder: "static/images/uploads" # Media files will be stored in the repo
+public_folder: "/images/uploads" # The src attribute for uploaded media
+
+collections:
+  - name: "page" # Used in routes, e.g., /admin/collections/blog
+    label: "Page" # Used in the UI
+    folder: "content" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    nested:
+      depth: 100 # max depth to show in the collection tree
+    fields: # The fields for each document, usually in front matter
+      - label: Title
+        name: title
+        widget: string
+      - label: bookHidden
+        name: bookHidden
+        widget: boolean
+      - label: Body
+        name: body
+        widget: markdown
+    # adding a meta object with a path property allows editing the path of entries
+    # moving an existing entry will move the entire sub tree of the entry to the new location
+    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+  - name: "musique" # Used in routes, e.g., /admin/collections/blog
+    label: "Musique" # Used in the UI
+    folder: "content/musique" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    nested:
+      depth: 100 # max depth to show in the collection tree
+    fields: # The fields for each document, usually in front matter
+      - label: Title
+        name: title
+        widget: string
+      - label: Artistes
+        name: artistes
+        widget: list
+      - label: Year
+        name: year
+        widget: number
+        value_type: int
+      - label: Spotify
+        name: spotify
+        widget: select
+        options: ["oui", "non"]
+      - label: Link
+        name: link
+        widget: markdown
+        minimal: true
+      - label: YouTube ID
+        name: youtube
+        widget: text
+      - label: Body
+        name: body
+        widget: markdown
+    # adding a meta object with a path property allows editing the path of entries
+    # moving an existing entry will move the entire sub tree of the entry to the new location
+    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }

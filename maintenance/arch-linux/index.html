@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Installation #  Choix de la distribution #  C&rsquo;est marrant d&rsquo;apprendre à installer Arch Linux et à le personnaliser. Mais ce n&rsquo;est pas ma seule passion dans la vie non plus. Après 2 ou 3 jours, j&rsquo;avais envie de passer à autre chose et il me manquait encore des choses à configurer, donc au lieu de m&rsquo;embêter, j&rsquo;ai préféré choisir une distribution complète basée sur Arch.
+Manjaro i3 #  Installation simple et rapide.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
+<meta property="og:description" content="Installation #  Choix de la distribution #  C&rsquo;est marrant d&rsquo;apprendre à installer Arch Linux et à le personnaliser. Mais ce n&rsquo;est pas ma seule passion dans la vie non plus. Après 2 ou 3 jours, j&rsquo;avais envie de passer à autre chose et il me manquait encore des choses à configurer, donc au lieu de m&rsquo;embêter, j&rsquo;ai préféré choisir une distribution complète basée sur Arch.
+Manjaro i3 #  Installation simple et rapide." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aureliendossantos.github.io/wiki/maintenance/arch-linux/" /><meta property="article:section" content="maintenance" />
+
+<meta property="article:modified_time" content="2021-09-20T14:53:14+02:00" />
+
+<title>Arch Linux | Book</title>
+<link rel="manifest" href="/wiki/manifest.json">
+<link rel="icon" href="/wiki/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/wiki/book.min.9b61428f4b5104c9ea131e8a8b045dbf38911aef1789b8875a16a28d38acb138.css" integrity="sha256-m2FCj0tRBMnqEx6KiwRdvziRGu8XibiHWhaijTissTg=" crossorigin="anonymous">
+  <script defer src="/wiki/flexsearch.min.js"></script>
+  <script defer src="/wiki/en.search.min.e1c05d1d17b3b6cf05f5648deb1467aa4579e9c68e9d79a187f096605f9781ab.js" integrity="sha256-4cBdHRezts8F9WSN6xRnqkV56caOnXmhh/CWYF&#43;Xgas=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a href="/wiki/"><span>Book</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>Websites</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/websites/creer-site/" class="">Créer un site Hugo</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/websites/themes/" class="">Thèmes</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f447c0a84612293ef28553e132c983f5" class="toggle"  />
+    <label for="section-f447c0a84612293ef28553e132c983f5" class="flex justify-between">
+      <a href="https://aureliendossantos.github.io/wiki/anglais/" class="">Anglais</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/anglais/procedes/" class="">Les procédés de traduction</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/anglais/traduire-on/" class="">Les traductions de « on »</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/anglais/traduire-se/" class="">Les traductions de « se »</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/anglais/under/" class="">Beneath, below, under, underneath</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>Musique</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-febb369f1b4191d522f358e063340fdf" class="toggle"  />
+    <label for="section-febb369f1b4191d522f358e063340fdf" class="flex justify-between">
+      <a href="https://aureliendossantos.github.io/wiki/musique/city-pop/" class="">City Pop</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/musique/city-pop/love-trip/" class="">Love Trip</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/musique/city-pop/ride-on-time/" class="">RIDE ON TIME</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/musique/city-pop/sunshower/" class="">SUNSHOWER</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/musique/city-pop/variety/" class="">VARIETY</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-648bcd4793977a8d960fdfdf40c465ed" class="toggle"  />
+    <label for="section-648bcd4793977a8d960fdfdf40c465ed" class="flex justify-between">
+      <a href="https://aureliendossantos.github.io/wiki/musique/ambient/" class="">Ambient</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/musique/ambient/end-the-beginning/" class="">End the Beginning</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/musique/ambient/oasis-of-the-wind/" class="">Oasis Of The Wind II ～ A Story Of Forest And Water ～</a>
+  
+
+        </li>
+      
+    
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/musique/ambient/wet-land/" class="">Wet Land</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/musique/cool-obscur/" class="">Cool Obscur</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/musique/investiguer/" class="">Investiguer</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>Vidéo</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/video/logiciels-de-montage/" class="">Logiciels de montage</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/video/outils-de-montage/" class="">Outils de montage</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/video/youtube-dl/" class="">youtube-dl</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>Maintenance</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-e66075e6d7bbb08588e86fb443987e09" class="toggle"  />
+    <label for="section-e66075e6d7bbb08588e86fb443987e09" class="flex justify-between">
+      <a role="button" class="">Mes ordinateurs</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/maintenance/ordinateurs/tour/" class="">Tour</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/maintenance/ordinateurs/acer-chromebook-cb3/" class="">Acer Chromebook CB3-131-C2V4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/maintenance/ordinateurs/asus-p2420la-wo0538e/" class="">Asus P2420LA-WO0538E</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/maintenance/arch-linux/" class=" active">Arch Linux</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/maintenance/windows/" class="">Windows</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/maintenance/galliumos/" class="">GalliumOS</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/content-zone/" class="">Content Zone</a>
+  
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2384fc89cd260aeb00dce0e1f3f34310" class="toggle"  />
+    <label for="section-2384fc89cd260aeb00dce0e1f3f34310" class="flex justify-between">
+      <a href="https://aureliendossantos.github.io/wiki/shortcodes/" class="">Shortcodes</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/shortcodes/buttons/" class="">Buttons</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/shortcodes/columns/" class="">Columns</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/shortcodes/details/" class="">Details</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/shortcodes/expand/" class="">Expand</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/shortcodes/hints/" class="">Hints</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/shortcodes/katex/" class="">Katex</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/shortcodes/mermaid/" class="">Mermaid</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-86fbe2c820b23fb14fc70230c844ad51" class="toggle"  />
+    <label for="section-86fbe2c820b23fb14fc70230c844ad51" class="flex justify-between">
+      <a href="https://aureliendossantos.github.io/wiki/shortcodes/section/" class="">Section</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/shortcodes/section/first-page/" class="">First Page</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/shortcodes/section/second-page/" class="">Second Page</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/shortcodes/tabs/" class="">Tabs</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-6a1c8128072e3ce1021e6b696519c30c" class="toggle"  />
+    <label for="section-6a1c8128072e3ce1021e6b696519c30c" class="flex justify-between">
+      <a role="button" class="">Français</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/francais/typographie/" class="">Typographie</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-db47be82e214c4280075b4b3757dca10" class="toggle"  />
+    <label for="section-db47be82e214c4280075b4b3757dca10" class="flex justify-between">
+      <a role="button" class="">Jeux</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/jeux/destiny/" class="">Destiny</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://aureliendossantos.github.io/wiki/randonnees/" class="">Randonnées</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://aureliendossantos.github.io" target="_blank" rel="noopener">
+        Blog
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://github.com/aureliendossantos/wiki" target="_blank" rel="noopener">
+        GitHub
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/wiki/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Arch Linux</strong>
+
+  <label for="toc-control">
+    
+    <img src="/wiki/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#installation">Installation</a>
+      <ul>
+        <li><a href="#choix-de-la-distribution">Choix de la distribution</a></li>
+        <li><a href="#setup-manjaro">Setup Manjaro</a></li>
+      </ul>
+    </li>
+    <li><a href="#mises-à-jour">Mises à jour</a>
+      <ul>
+        <li><a href="#erreur-de-keyring-sur-pacman">Erreur de keyring sur Pacman</a>
+          <ul>
+            <li><a href="#problème-lié">Problème lié</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#nettoyer-espace-disque">Nettoyer espace disque</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      <h1>Arch Linux</h1>
+
+
+
+
+      
+  <article class="markdown">
+</p>
+
+<h1 id="installation">
+  Installation
+  <a class="anchor" href="#installation">#</a>
+</h1>
+<h2 id="choix-de-la-distribution">
+  Choix de la distribution
+  <a class="anchor" href="#choix-de-la-distribution">#</a>
+</h2>
+<p>C&rsquo;est marrant d&rsquo;apprendre à installer Arch Linux et à le personnaliser. Mais ce n&rsquo;est pas ma seule passion dans la vie non plus. Après 2 ou 3 jours, j&rsquo;avais envie de passer à autre chose et il me manquait encore des choses à configurer, donc au lieu de m&rsquo;embêter, j&rsquo;ai préféré choisir une distribution complète basée sur Arch.</p>
+<div class="book-columns flex flex-wrap">
+
+  <div class="flex-even markdown-inner">
+    <h3 id="manjaro-i3">
+  Manjaro i3
+  <a class="anchor" href="#manjaro-i3">#</a>
+</h3>
+<p>Installation simple et rapide.</p>
+<p>Après installation (avec swap file) 8 Go de libre restants.</p>
+
+  </div>
+
+  <div class="flex-even markdown-inner">
+    <h3 id="endeavouros-i3">
+  EndeavourOS i3
+  <a class="anchor" href="#endeavouros-i3">#</a>
+</h3>
+<p>Utilise i3-gaps. Installation très lente et moche, qui ne met pas en confiance.</p>
+<p>31/07/2021 : Ne fonctionne pas sur mon Acer Chromebook. Il y a un login screen puis le bureau ne se démarre pas, sans aucun message d&rsquo;erreur&hellip;</p>
+
+  </div>
+
+</div>
+
+<h2 id="setup-manjaro">
+  Setup Manjaro
+  <a class="anchor" href="#setup-manjaro">#</a>
+</h2>
+<ol>
+<li>
+<p>Installer Oh My Zsh :</p>
+<ol>
+<li>Changer le shell pour Zsh : <code>chsh -s $(which zsh)</code></li>
+<li>Déco reco</li>
+<li>Vérifier : <code>echo $SHELL</code></li>
+<li>Installer <a href="https://ohmyz.sh">Oh My Zsh</a></li>
+</ol>
+</li>
+<li>
+<p>Installer yay : <code>sudo pacman -S yay</code></p>
+</li>
+<li>
+<p>Copier mes fichiers de config i3 et i3status</p>
+</li>
+<li>
+<p><code>yay -S xorg-xbacklight</code> pour régler la luminosité</p>
+</li>
+<li>
+<p>Installer Chrome et VS Code (bin)</p>
+</li>
+<li>
+<p><code>code .config/mimeapps.list</code> Remplacer les <code>Pale Moon.desktop</code> en <code>google-chrome.desktop</code></p>
+</li>
+<li>
+<p>Personnaliser Conky : le thème utilisé par défaut est &ldquo;conky maia&rdquo;. <code>locate conky_maia</code> et modifier avec <code>sudo nano</code>.</p>
+</li>
+</ol>
+<p>La solution pour régler l&rsquo;audio sur le wiki Arch du CB3-131 n&rsquo;a pas marché.</p>
+<h1 id="mises-à-jour">
+  Mises à jour
+  <a class="anchor" href="#mises-%c3%a0-jour">#</a>
+</h1>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">&lt;pacman/yay&gt; -Syu
+</code></pre></div><h2 id="erreur-de-keyring-sur-pacman">
+  Erreur de keyring sur Pacman
+  <a class="anchor" href="#erreur-de-keyring-sur-pacman">#</a>
+</h2>
+<p>Sometimes if a user doesn&rsquo;t update their system for a long time, this keyring might expire. The keyring can also get corrupted for some reason. To solve basic keyring issues do the following:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#75715e"># Resynchronise with the Manjaro repository servers</span>
+<span style="color:#75715e"># to ensure that everything is up to date</span>
+sudo pacman -Syy
+<span style="color:#75715e"># Refresh and update the signature keys</span>
+sudo pacman-key --refresh-keys
+<span style="color:#75715e"># Reload the signature keys</span>
+sudo pacman-key --populate archlinux manjaro
+</code></pre></div><p>The three commands above should solve most (basic) keyring issues.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<h3 id="problème-lié">
+  Problème lié
+  <a class="anchor" href="#probl%c3%a8me-li%c3%a9">#</a>
+</h3>
+<p>Après avoir fait cela et fait une mise à jour, j&rsquo;ai eu des problèmes que je soupçonne être ceci : <a href="https://www.reddit.com/r/ManjaroLinux/comments/lqbw0n/my_manjaroi3_just_became_archlinuxlol_and_all_of/">https://www.reddit.com/r/ManjaroLinux/comments/lqbw0n/my_manjaroi3_just_became_archlinuxlol_and_all_of/</a></p>
+<p>après avoir fait <code>pacman-mirrors -c all</code> j&rsquo;ai dû effectuer de nouvelles mises à jour mais cela n&rsquo;a pas réglé entièrement mon problème ; j&rsquo;ai préféré réinstaller.</p>
+<h1 id="nettoyer-espace-disque">
+  Nettoyer espace disque
+  <a class="anchor" href="#nettoyer-espace-disque">#</a>
+</h1>
+<p>Vider la corbeille</p>
+<p>Vérifier un dossier : <code>ncdu</code></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">yay -Scc
+npm cache clean --force  
+</code></pre></div><section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p><a href="https://archived.forum.manjaro.org/t/how-to-solve-keyring-issues-in-manjaro/4020">How to solve keyring issues in Manjaro</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+  <div><a class="flex align-center" href="https://github.com/aureliendossantos/wiki/commit/85a06e1be7928d238821eca783ded1b16cd1f03d" title='Last modified by Aurélien Dos Santos | 20 September 2021' target="_blank" rel="noopener">
+      <img src="/wiki/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>20 September 2021</span>
+    </a>
+  </div>
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/aureliendossantos/wiki/edit/master/content/maintenance/arch-linux.md" target="_blank" rel="noopener">
+      <img src="/wiki/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>Edit this page</span>
+    </a>
+  </div>
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#installation">Installation</a>
+      <ul>
+        <li><a href="#choix-de-la-distribution">Choix de la distribution</a></li>
+        <li><a href="#setup-manjaro">Setup Manjaro</a></li>
+      </ul>
+    </li>
+    <li><a href="#mises-à-jour">Mises à jour</a>
+      <ul>
+        <li><a href="#erreur-de-keyring-sur-pacman">Erreur de keyring sur Pacman</a>
+          <ul>
+            <li><a href="#problème-lié">Problème lié</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#nettoyer-espace-disque">Nettoyer espace disque</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

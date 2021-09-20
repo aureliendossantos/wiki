@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vidéo on Book</title>
+    <link>https://aureliendossantos.github.io/wiki/video/</link>
+    <description>Recent content in Vidéo on Book</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://aureliendossantos.github.io/wiki/video/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Logiciels de montage</title>
+      <link>https://aureliendossantos.github.io/wiki/video/logiciels-de-montage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aureliendossantos.github.io/wiki/video/logiciels-de-montage/</guid>
+      <description>Final Cut #  final cut has been marketed for quick edits, stream of consciousness editing</description>
+    </item>
+    
+    <item>
+      <title>Outils de montage</title>
+      <link>https://aureliendossantos.github.io/wiki/video/outils-de-montage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aureliendossantos.github.io/wiki/video/outils-de-montage/</guid>
+      <description>Plug-in WebM #  https://www.fnordware.com/WebM/</description>
+    </item>
+    
+    <item>
+      <title>youtube-dl</title>
+      <link>https://aureliendossantos.github.io/wiki/video/youtube-dl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aureliendossantos.github.io/wiki/video/youtube-dl/</guid>
+      <description>%appdata%/youtube-dl/config.txt #  -o &amp;quot;E:/Creative Cloud Files/youtube-dl/%(title)s.%(ext)s&amp;quot; -f bestvideo[ext=mp4]+bestaudio[ext=m4a]/best Mon tutoriel
+Outil perso #  Un petit fichier Batch qui propose une commande plus succinte :
+ yt &amp;lt;lien&amp;gt; pour utiliser les paramètres de qualité de youtube-dl, yt &amp;lt;lien&amp;gt; 1080 pour télécharger en 1080p maximum, yt &amp;lt;lien&amp;gt; mp4 pour télécharger la meilleure piste vidéo disponible au format MP4 (qui ne dépassera généralement pas 1080p, puisque YouTube semble préférer d&amp;rsquo;autres formats pour la 4K).</description>
+    </item>
+    
+  </channel>
+</rss>
